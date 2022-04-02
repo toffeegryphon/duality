@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Projected Duality</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<script
+	src="https://code.jquery.com/jquery-3.6.0.min.js"
+	integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+	crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<body>
+	<div id="main">
+		<canvas id="canvas" width="400" height="400" style="border: 1px solid black;"></canvas>
+		<div id="dashboard">
+			<label for="ainput">a</label>
+			<input type="number" id="ainput" name="ainput"/>
+			<label for="binput">b</label>
+			<input type="number" id="binput" name="binput"/>
+			<label for="cinput">0 for above, 1 for below</label>
+			<input type="number" id="cinput" name="cinput"/>
+			<label for="tinput">0 for line, 1 for point</label>
+			<input type="number" id="tinput" name="tinput"/>
+			<button id="generate">Generate</button>
+			<p>Right click on canvas to go to dual</p>
+		</div>
+	</div>
+</body>
+</html> 
